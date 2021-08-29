@@ -9,7 +9,7 @@ import Foundation
 import TFLiteSwift_Vision
 
 protocol ImageInferable {
-    func process(image: CVPixelBuffer) -> Inference
+    func process(pixelBuffer: CVPixelBuffer) -> Inference
 }
 
 extension ImageInferable {
