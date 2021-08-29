@@ -7,8 +7,6 @@
 
 import Foundation
 import TFLiteSwift_Vision
-import CoreMedia
-import CoreVideo
 
 final class PlantsModel: ImageInferable {
     private enum Resource {

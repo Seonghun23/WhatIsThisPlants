@@ -18,6 +18,8 @@
 		14CBC25426DB83CA001F37A7 /* aiy_plants_V1_labelmap.csv in Resources */ = {isa = PBXBuildFile; fileRef = 14CBC25326DB83CA001F37A7 /* aiy_plants_V1_labelmap.csv */; };
 		14CBC25626DB83EA001F37A7 /* PlantsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBC25526DB83EA001F37A7 /* PlantsModel.swift */; };
 		14CBC25926DB870F001F37A7 /* TFLiteFlatArray+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBC25826DB870F001F37A7 /* TFLiteFlatArray+Extension.swift */; };
+		14CBC25B26DBA4E8001F37A7 /* lite-model_disease-classification_1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 14CBC25A26DBA4E8001F37A7 /* lite-model_disease-classification_1.tflite */; };
+		14CBC25D26DBA4F0001F37A7 /* DiseaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBC25C26DBA4F0001F37A7 /* DiseaseModel.swift */; };
 		AA8FDA5D58B9F7E1418521A8 /* Pods_WhatIsThisPlants.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C95EBD83A73E569A6BE571 /* Pods_WhatIsThisPlants.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		14CBC25326DB83CA001F37A7 /* aiy_plants_V1_labelmap.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aiy_plants_V1_labelmap.csv; sourceTree = "<group>"; };
 		14CBC25526DB83EA001F37A7 /* PlantsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsModel.swift; sourceTree = "<group>"; };
 		14CBC25826DB870F001F37A7 /* TFLiteFlatArray+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TFLiteFlatArray+Extension.swift"; sourceTree = "<group>"; };
+		14CBC25A26DBA4E8001F37A7 /* lite-model_disease-classification_1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lite-model_disease-classification_1.tflite"; sourceTree = "<group>"; };
+		14CBC25C26DBA4F0001F37A7 /* DiseaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseModel.swift; sourceTree = "<group>"; };
 		23F3735254DDACCB6B8FF015 /* Pods-WhatIsThisPlants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatIsThisPlants.release.xcconfig"; path = "Target Support Files/Pods-WhatIsThisPlants/Pods-WhatIsThisPlants.release.xcconfig"; sourceTree = "<group>"; };
 		65A981B1072E707DEB5375FA /* Pods-WhatIsThisPlants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatIsThisPlants.debug.xcconfig"; path = "Target Support Files/Pods-WhatIsThisPlants/Pods-WhatIsThisPlants.debug.xcconfig"; sourceTree = "<group>"; };
 		B4C95EBD83A73E569A6BE571 /* Pods_WhatIsThisPlants.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatIsThisPlants.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +121,8 @@
 		14CBC25026DB8355001F37A7 /* DiseaseModel */ = {
 			isa = PBXGroup;
 			children = (
+				14CBC25A26DBA4E8001F37A7 /* lite-model_disease-classification_1.tflite */,
+				14CBC25C26DBA4F0001F37A7 /* DiseaseModel.swift */,
 			);
 			path = DiseaseModel;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CBC25B26DBA4E8001F37A7 /* lite-model_disease-classification_1.tflite in Resources */,
 				14CBC25426DB83CA001F37A7 /* aiy_plants_V1_labelmap.csv in Resources */,
 				1412DFAC26DB811600A373BA /* LaunchScreen.storyboard in Resources */,
 				1412DFA926DB811600A373BA /* Assets.xcassets in Resources */,
@@ -248,6 +255,7 @@
 				1412DFA026DB811400A373BA /* AppDelegate.swift in Sources */,
 				14CBC25926DB870F001F37A7 /* TFLiteFlatArray+Extension.swift in Sources */,
 				14CBC24E26DB824D001F37A7 /* ImageInferable.swift in Sources */,
+				14CBC25D26DBA4F0001F37A7 /* DiseaseModel.swift in Sources */,
 				14CBC25626DB83EA001F37A7 /* PlantsModel.swift in Sources */,
 				1412DFA226DB811400A373BA /* SceneDelegate.swift in Sources */,
 			);
